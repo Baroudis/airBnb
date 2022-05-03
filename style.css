@@ -10,22 +10,22 @@
     background-size: 22px;
     background-position: 13px;
     border-radius: 15px;
-    width: 50px;
+    width: 130px;
     height: 50px;
     padding: 25px;
     transition: all 0.5s;
 }
 
 .search-click:focus {
-    width: 350px;
+    width: 400px;
     padding-left: 50px;
 }
 
- .search-click {
+.search-click {
     position: relative;
     overflow: hidden;
     height: 50px;
-} 
+}
 
 .search-click input {
     background: transparent;
@@ -36,4 +36,55 @@
     height: 50px;
     left: 0%;
     padding: 10px;
+}
+
+/* body {
+    height:150px;
+    overflow-y: scroll;
+  } */
+
+.untest {
+    height: 10000px;
+}
+
+.jesuis {
+    margin-top: 100px;
+    ;
+}
+
+.oser {
+
+    margin-top: 50px;
+    width: 25em;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.ifrim {
+    border-radius: 20px;
+    ;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.plusba {
+    margin-top: 30px;
+}
+
+.ifrim{
+    margin-left: 0px;
+    height: 630px;
+    width: 29em;
+    max-width: auto;
+}
+.bout{
+    margin-left: 1px;
 }
