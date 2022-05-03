@@ -1,3 +1,39 @@
-img {
-width: 26em;
+.logoBNB {
+    width: 100px;
+    height: 60px;
+    ;
+}
+
+.search-click {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+}
+
+.search-click:focus {
+    width: 350px;
+    padding-left: 50px;
+}
+
+ .search-click {
+    position: relative;
+    overflow: hidden;
+    height: 50px;
+} 
+
+.search-click input {
+    background: transparent;
+    border: 1px solid #ccc;
+    outline: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 0%;
+    padding: 10px;
 }
